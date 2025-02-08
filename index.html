@@ -38,6 +38,22 @@
       <!-- REVOLUTION STYLE SHEETS -->
       <link rel="stylesheet" type="text/css" href="revolution/rs6.css">
 
+
+	  <!-- tailwind css start here -->
+	  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+	  <!-- tailwind css end here -->
+  
+	  <!-- Include intl-tel-input CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  
+	  <!-- Include intl-tel-input JS -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	  <style>
+		  .iti {
+			  width: 100%;
+		  }
+	  </style>
+
    </head>
    <body>
 
@@ -253,6 +269,345 @@
             </div>
         </header>
         <!-- Header Main Area End Here -->
+
+
+
+		<!-- form start here -->
+
+		<div class="row w-[90%] mx-auto">
+				<div class="bg-[#0b4bd3] h-full">
+					<div class="flex justify-center py-5 lg:justify-end">
+						<div class="call-btn clearfix md:pr-5">
+							<a href="tel:09300300300">
+								<div class="icon"><span class="bg_sprite bg-icon_phone"></span></div>
+								<span class="text-3xl font-semibold text-white"> 09 300 300 300 <div
+										class="call-btn-txt text-white text-sm font-normal"> Shifting Domestic &amp;
+										International
+									</div>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="grid grid-cols-1 sm:grid-cols-4  lg:grid-cols-[repeat(7,max-content)]  w-full mx-auto pl-2 pr-2 md:pl-20 lg:pl-20 md:pb-0 gap-y-2"
+						style="column-gap:0.3rem;">
+
+						<!-- bus start here -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[100px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/bus.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">Domestic Moving</span>
+							<div
+								class="bottom_line absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- truck start here -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[100px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/truck.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">Car Moving</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- secure storage start here  -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[100px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/warehouse.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">Secure Storage</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- flighting Booking start here  -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[100px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/aeroOne.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">flighting Booking</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- international Moving start here  -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[120px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/aeroTwo.png" alt="bus">
+							</span>
+							<span class="text text-xs text-center whitespace-nowrap card_text">international Moving</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- office Moving start here  -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[100px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/itemload.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">Office Moving</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+						<!-- Commercial Moving start here  -->
+						<div
+							class="bus_btn bg-white shadow-md flex flex-col justify-center items-center cursor-pointer w-full sm:w-[120px] rounded-md h-[4.5rem] hover:shadow-2xl hover:translate-y-[-7%] translate-y-[5px] ease-in-out transition-transform duration-500 tab_btns">
+							<span class="w-[1.5rem]">
+								<img class="w-full" src="./images/form/truckUpper.png" alt="bus">
+							</span>
+							<span class="text text-xs card_text">Commercial Moving</span>
+							<div
+								class="bottom_line hidden absolute bottom-0 left-1/2 -translate-x-1/2  h-[5px] bg-orange-500 w-full origin-center transition-all duration-500">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- form first form start here -->
+				<div class="row">
+					<!-- heading start here -->
+					<div class="form_heading pt-4 pb-3">
+						<span class="font-semibold">
+							Get a free
+							<span id="change_text" class="text-red-500 font-semibold"> Domestic Moving</span>
+							<span class="font-semibold">quote</span>
+						</span>
+					</div>
+					<!-- headind end here  -->
+
+					<!-- form fields start  here -->
+					<div class="first_form ">
+						<form action="#" class="" novalidate onsubmit="submitHandler(event)">
+							<div class="grid grid-cols-1 gap-y-5">
+								<div class="first_section grid grid-cols-1 lg:grid-cols-[repeat(3,320px)] gap-y-5"
+									style="column-gap: 1rem;">
+									<div class="full_name w-[100%]">
+										<input id="full_name" class="w-[100%] h-[2.5rem]  border-[1px] rounded-sm pl-1"
+											type="text" value="" required placeholder="Full Name*">
+										<span id="name_error" class="text-red-500 text-sm"></span>
+									</div>
+									<div class="mobile_no w-[100%] block">
+										<input id="mobile_no" class="w-[100%] h-[2.5rem] border-[1px] rounded-sm pl-1"
+											type="text" value="" required placeholder="Mobile No*">
+										<span id="mobile_error" class="text-red-500 text-sm"></span>
+									</div>
+
+									<!-- international phone number start here -->
+									<div class="inter_national_phone_no w-[100%] hidden">
+										<input type="tel" class="w-[100%] h-[2.5rem] border-[1px] rounded-sm pl-1" id="phone"
+											required />
+										<span id="error-msg" class="error-message" style="color: red; display: none;"></span>
+									</div>
+									<!-- international phone number end here -->
+
+									<div class="email w-[100%]">
+										<input id="email" class="w-[100%] h-[2.5rem] border-[1px] rounded-sm pl-1" type="email"
+											value="" required placeholder="Email id*">
+										<span id="email_error" class="text-red-500 text-sm"></span>
+									</div>
+								</div>
+								<div class="sec_section grid grid-cols-1 lg:grid-cols-[repeat(5,max-content)] gap-x-5 gap-y-5">
+									<div class="from w-full lg:w-[14.5rem]">
+										<input id="from" class="w-full h-[2.5rem] border-[1px] rounded-sm pl-1" type="text"
+											value="" required placeholder="From*">
+										<span id="from_error" class="text-red-500 text-sm"></span>
+									</div>
+									<div class="To w-full lg:w-[14.5rem]">
+										<input id="to" class=" w-full h-[2.5rem] border-[1px] rounded-sm pl-1" type="text"
+											value="" required placeholder="To*">
+										<span id="to_error" class="text-red-500 text-sm"></span>
+									</div>
+									<div class="captcha w-full lg:w-[14.5rem]">
+										<input id='captcha' class=" w-full h-[2.5rem] border-[1px] rounded-sm pl-1" type="text"
+											value="" required placeholder="Enter Captcha*">
+										<span id="captcha_error" class="text-red-500 text-sm"></span>
+									</div>
+									<div class="flex gap-x-5">
+										<div class="cacha">
+											<!-- <img loading="lazy" id="captcha_code" src="captcha.php" width="65" height="25" alt="captcha"> -->
+											<button
+												class="bg-black border-[1px] border-black rounded-md text-white w-[5rem] h-[2.5rem] cursor-pointer">94758</button>
+										</div>
+										<div class="submit_btn">
+											<input
+												class="w-[8rem] rounded-md border-[1px] border-[#ed1c24] bg-[#ed1c24] text-white h-[2.5rem] cursor-pointer "
+												type="submit" value="Submit" required>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<!-- form fields end here  -->
+
+					<!-- second form  fields start here -->
+					<div class="second_form hidden">
+						<div class="buttons">
+							<ul class="grid grid-cols-2 md:grid-cols-[repeat(4,max-content)] gap-x-2 gap-y-5">
+								<li
+									class="list-none bg-[#f3f3f3] text-black text-center w-[5rem] h-[2rem] border-[1px] border-black rounded-sm hover:bg-red-500 group">
+									<a href="#"
+										class="decoration-none text-sm text-center w-full inline-block group-hover:text-white font-semibold">
+										Check-In
+									</a>
+
+								</li>
+								<li
+									class="list-none bg-[#f3f3f3] text-black text-center w-[8.5rem] h-[2rem] border-[1px] border-black rounded-sm hover:bg-red-500 group">
+									<a href="#"
+										class="decoration-none text-sm text-center w-full inline-block group-hover:text-white font-semibold">
+										Manage Booking
+									</a>
+								</li>
+								<li
+									class="list-none bg-[#f3f3f3] text-black text-center w-[5rem] h-[2rem] border-[1px] border-black rounded-sm hover:bg-red-500 group">
+									<a href="#"
+										class="decoration-none text-sm text-center w-full inline-block group-hover:text-white font-semibold">
+										Offers
+									</a>
+								</li>
+								<li
+									class="list-none bg-[#f3f3f3] text-black text-center w-[8.5rem] h-[2rem] border-[1px] border-black rounded-sm hover:bg-red-500 group">
+									<a href="#"
+										class="decoration-none text-sm w-full inline-block group-hover:text-white font-semibold">
+										Group Enquiry
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- radio button start here -->
+						<div class="radio_btn mt-4">
+							<div class="triptype form-group">
+								<span>
+									<input type="radio" value="oneWay" name="tripType" id="apmoneWay"
+										data-gtm-form-interact-field-id="1">
+									<label for="apmoneWay" class="text-sm font-semibold">One Way</label>
+								</span>
+								<span>
+									<input type="radio" value="roundTrip" name="tripType" id="roundTrip"
+										data-gtm-form-interact-field-id="0">
+									<label for="roundTrip" class="text-sm font-semibold">Round Trip</label>
+								</span>
+							</div>
+						</div>
+
+						<!-- form field start here -->
+						<div class="second_form-field mt-5">
+							<form action="#" novalidate>
+								<div class="grid gap-y-5">
+									<div class="grid sm:grid-cols-1 lg:grid-cols-[repeat(3,320px)] gap-x-2 gap-y-5">
+										<div class="economy w-full">
+											<select value="Economy" name="class" id="apmcabinclass"
+												class="border-[1px] w-full h-[2.5rem] rounded-md pl-2">
+												<option value="" selected>--Select--</option>
+												<option value="Economy">Economy</option>
+												<option value="premiumEconomy">Premium Economy</option>
+												<option value="Business">Business</option>
+												<option value="premiumFirst">Premium First</option>
+											</select>
+										</div>
+										<!-- origin field -->
+										<div class="origin w-full">
+											<input type="text" placeholder="Origin"
+												class="pl-2 border-[1px] w-full h-[2.5rem] rounded-md">
+										</div>
+										<!-- Destination -->
+										<div class="destination_field w-full">
+											<input type="text" placeholder="Destination"
+												class="pl-2 border-[1px] w-full h-[2.5rem] rounded-md">
+										</div>
+									</div>
+
+									<div class="grid grid-cols-1  lg:grid-cols-4 gap-x-3 gap-y-5">
+										<!-- from Date -->
+										<div class="From_Date w-full">
+											<input type="text" placeholder="From Date"
+												class="pl-2 border-[1px] w-full h-[2.5rem] rounded-md"
+												onfocus="focusHandler(event)" onblur="dateBlurHandler(event)">
+										</div>
+										<!-- to Date -->
+										<div class="To_Date w-full">
+											<input type="text" placeholder="To Date"
+												class="pl-2 border-[1px] w-full h-[2.5rem] rounded-md"
+												onfocus="focusHandler(event)" onblur="dateBlurHandler(event)">
+										</div>
+										<!-- traveller wrapper -->
+										<div class="traveller-wrapper flex justify-center items-center gap-x-2 form-group">
+											<span class="flex flex-col md:flex-row gap-x-[0.2rem]">
+												<label for="apmadult">Adults</label>
+												<select value="1" name="adult" id="apmadultCount" class="border-[1px] px-1">
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+													<option value="6">6</option>
+													<option value="7">7</option>
+													<option value="8">8</option>
+													<option value="9">9</option>
+												</select>
+											</span>
+											<span>
+												<label for="apmchildCount">Childs</label>
+												<select value="0" name="child" id="apmchildCount" class="border-[1px] px-1">
+													<option value="0">0</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+													<option value="6">6</option>
+													<option value="7">7</option>
+													<option value="8">8</option>
+													<option value="9">9</option>
+												</select>
+											</span>
+											<span>
+												<label for="apminfantCount">Infants</label>
+												<select value="0" name="infant" id="apminfantCount" class="border-[1px] px-1">
+													<option value="0">0</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+													<option value="6">6</option>
+													<option value="7">7</option>
+													<option value="8">8</option>
+													<option value="9">9</option>
+												</select>
+											</span>
+
+										</div>
+										<div class="btn_search">
+											<span class="searchbtn xs_center">
+												<button type="button" id="apmflightSearchBtn"
+													class=" sub-btn bg-[#ed1c24] hover:bg-[#f6b801] text-md font-semibold rounded-md cursor-pointer text-white w-full md:w-[6rem] h-[2.5rem]">Search
+												</button>
+											</span>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- form field end here -->
+					</div>
+					<!-- second form fields end here  -->
+				</div>
+				<!-- form first form end here -->
+
+			</div>
+
+		<!-- form end here -->
+
 
         <!-- Page Content -->
         <div class="page-content">
@@ -1822,6 +2177,207 @@
 	<script src="revolution/rslider.js"></script>
 	<script src="revolution/rbtools.min.js"></script>
 	<script src="revolution/rs6.min.js"></script>
+	<script>
+
+        const input = document.querySelector("#phone");
+
+        // Initialize intlTelInput with the default country as US
+        window.intlTelInput(input, {
+            initialCountry: "IN",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" // for formatting/validation
+        });
+
+        // Restrict input to digits only and limit to 10 digits
+        input.addEventListener("input", function (e) {
+            // Replace any non-digit characters
+            this.value = this.value.replace(/\D/g, '');
+
+            // Limit the value to the first 10 digits
+            if (this.value.length > 10) {
+                this.value = this.value.substring(0, 10);
+            }
+        });
+
+        const change_text = document.querySelector("#change_text");
+        const card_texts = document.querySelectorAll(".card_text");
+        const mobileNumber = document.querySelector(".mobile_no");
+        const internationalField = document.querySelector('.inter_national_phone_no');
+        const tabBtns = document.querySelectorAll('.tab_btns');
+        const firstForm = document.querySelector('.first_form');
+        const secondForm = document.querySelector(".second_form");
+        const bottom_line = document.querySelectorAll(".bottom_line");
+        tabBtns.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const tabIndex = index + 1;
+
+                bottom_line.forEach((line, ind) => {
+                    line.style.display = "none";
+                })
+                if (bottom_line[index]) {
+                    bottom_line[index].style.display = "block";
+                }
+
+                firstForm.style.display = "none";
+                secondForm.style.display = "none";
+                mobileNumber.style.display = "none";
+                internationalField.style.display = "none";
+
+
+
+                switch (tabIndex) {
+                    case 2:
+                        firstForm.style.display = "block";
+                        internationalField.style.display = "block";
+
+                        break;
+                    case 3:
+                        firstForm.style.display = "block";
+                        mobileNumber.style.display = "block";
+                        break;
+                    case 4:
+                        secondForm.style.display = "block";
+                        break;
+                    case 5:
+                        firstForm.style.display = "block";
+                        mobileNumber.style.display = "block";
+                        break;
+                    case 6:
+                        firstForm.style.display = "block";
+                        internationalField.style.display = "block";
+                        break;
+                    case 7:
+                        firstForm.style.display = "block";
+                        internationalField.style.display = "block";
+                        break;
+                    default:
+                        firstForm.style.display = "block";
+                        mobileNumber.style.display = "block";
+                        break;
+                }
+
+
+                if (card_texts[index]) {
+                    change_text.textContent = card_texts[index].textContent;
+                }
+            });
+        });
+
+        // onfocus field start here
+        const focusHandler = (e) => {
+            const fields = e.currentTarget;
+            const fieldAttr = fields.getAttribute("type");
+            if (fieldAttr === "text") {
+                fields.setAttribute("type", "date");
+            }
+        }
+        // onfocus field end here 
+
+        // onBlur field start here
+        const dateBlurHandler = (e) => {
+            const fields = e.currentTarget;
+            const fieldAttr = fields.getAttribute("type");
+            if (fieldAttr === "date") {
+                fields.setAttribute("type", "text");
+            }
+        }
+        // onBlur field end here
+
+        // validation start here
+
+        const full_name = document.querySelector("#full_name");
+        const mobile_num = document.querySelector("#mobile_no");
+        const inter_num = document.querySelector("#inter_no");
+        const email = document.querySelector("#email");
+        const from = document.querySelector("#from");
+        const to = document.querySelector("#to");
+        const captcha = document.querySelector("#captcha");
+
+        const name_error = document.querySelector("#name_error");
+        const mobile_error = document.querySelector("#mobile_error");
+        const inter_num_error = document.querySelector("#inter_num_error")
+        const email_error = document.querySelector("#email_error");
+        const from_error = document.querySelector("#from_error")
+        const to_error = document.querySelector("#to_error");
+        const captcha_error = document.querySelector("#captcha_error");
+
+        function clearErrorMessages() {
+            document.querySelectorAll('span[id$="_error"]').forEach(span => span.innerHTML = '')
+        }
+        const isValidate = () => {
+            // error end here
+            clearErrorMessages();
+
+            // full name start here
+            if (full_name.value.trim() === "") {
+                name_error.innerHTML = "please enter your name";
+                return false
+            }
+            if ((full_name.value.trim().length < 2) || (full_name.value.trim().length > 20)) {
+                name_error.innerHTML = "please enter atleast two characters";
+                return false;
+            }
+
+            // mobile value start here
+            if (mobile_num.value.trim() === "") {
+                mobile_error.innerHTML = "please enter your number";
+                return false;
+            }
+            if (!mobile_num.value.trim().match(/^[6-9]\d{9}$/)) {
+                mobile_error.innerHTML = "Please enter a valid 10 digit mobile number";
+                return false;
+            }
+
+            // email  value start here
+            if (email.value.trim() === "") {
+                email_error.innerHTML = "Please enter your email address";
+                return false;
+            }
+            if (!email.value.trim().match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+                email_error.innerHTML = "Invalid email address";
+                return false;
+            }
+
+            // from date start here
+            if (from.value.trim() === "") {
+                from_error.innerHTML = "please enter from date";
+                return false
+            }
+
+            // to date start here
+            if (to.value.trim() === "") {
+                to_error.innerHTML = "please enter from date";
+                return false;
+            }
+
+            // captcha start here
+            if (captcha.value.trim() === "") {
+                captcha_error.innerHTML = "please enter your captcha";
+                return false;
+            }
+            return true
+        }
+        const submitHandler = (e) => {
+            e.preventDefault();
+            if (isValidate()) {
+                full_name.value = "";
+                mobile_num.value = "";
+                inter_num.value = "";
+                email.value = "";
+                from.value = "";
+                to.value = "";
+                captcha.value = "";
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        // validation end here
+
+     // second from validation start here.
+
+    // second from validation end here.
+    </script>
 
    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'907805abb8327eb6',t:'MTczNzgwNTU4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
